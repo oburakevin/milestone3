@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="./admin.css" />
+
+    <script src="../scripts/font-awesome.js" crossorigin="anonymous"></script>
+
+    <title>Mobura Motor Hub</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- side Navigation bar-->
+      <aside class="sidebar" id="sidebar">
+        <a href="">Mcobura Motor Hub</a>
+        <hr />
+        <ul class="list-unstyled">
+          <li>
+            <a href=""><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-toyota-slice"></i> Dishes</a>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-user-friends"></i> Users</a>
+          </li>
+          <li>
+            <a href=""><i class="far fa-comments"></i> Comments</a>
+          </li>
+        </ul>
+      </aside>
+
+      <!-- Content-Wrapper -->
+      <main class="content-wrapper" id="main-content">
+        <!-- Top bar -->
+        <nav id="navbar" class="topbar">
+          <button
+            id="sidebarToggleTop"
+            onclick="sidebarToggler();"
+            class="mr-auto"
+          >
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="dropdown ml-auto">
+            <a href="">Account</a>
+            <div class="dropdown-content">
+              <ul>
+                <li>
+                  <a href=""><i class="fas fa-user"></i> Profile</a>
+                </li>
+                <br />
+                <li>
+                  <a href=""><i class="fas fa-cogs"></i> Change Password</a>
+                </li>
+                <li><hr /></li>
+                <li>
+                  <a href=""><i class="fas fa-sign-out-alt"></i> Logout</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Content area -->
+        <article class="content">
+          <h1>Vehicles</h1>
+          <div class="underline"></div>
+          <br />
+          <button class="ml-auto btn">
+            <i class="fas fa-plus"></i> Add Vehicles
+          </button>
+          <div class="table-responsive">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>vehicle Name</th>
+                  <th>Price</th>
+                  <th>Category</th>
+                  <th>Description</th>
+                  <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Toyota v8</td>
+                <td>20 M</td>
+                <td>All Road</td>
+                <td>
+                toyota v8 all weather road of 4700 cc, latest machine from German
+                </td>
+                <td>
+                  <a class="btn bg-warning" href="">Delete</a>
+                  <a class="btn bg-success" href="">Edit</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Mercedes Benz</td>
+                <td>18 M</td>
+                <td>S Class Sport</td>
+                <td>
+                  Merecedes S Class a very laxurious vehicle from German with 3000 cc sport engine
+                </td>
+                <td>
+                  <a class="btn bg-warning" href="">Delete</a>
+                  <a class="btn bg-success" href="">Edit</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Range Rover Sport</td>
+                <td>19.3 M</td>
+                <td>Luxurious and all weather road vehicle</td>
+                <td>
+                    Range Rover Sports comes with 4200cc engine , very laxurios and of all weather road
+                  </td>
+                  <td>
+                    <a class="btn bg-warning" href="">Delete</a>
+                    <a class="btn bg-success" href="">Edit</a>
+                  </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="align-self-center">
+          <p class="text-center">All right Reserved. &copy;2020 Mcobura Motor Hub</p>
+        </div>
+    </footer>
+  </main>
+</div>
+
+<script src="../scripts/main.js"></script>
+</body>
+<html>
